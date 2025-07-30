@@ -1,5 +1,7 @@
-from flask import Flask
 import os
+print("DEBUG: os module loaded")
+
+from flask import Flask
 
 app = Flask(__name__)
 
