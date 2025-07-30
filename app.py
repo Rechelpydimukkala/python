@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "<h1>Welcome to Jenkins Tutorials</h1>"
+    return "Welcome to Jenkins Tutorials"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
