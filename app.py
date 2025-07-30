@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-@app.route('/')
+#@app.route('/')
 def home():
     return "<h1>Welcome to Jenkins Tutorials</h1>"
 
